@@ -4,19 +4,17 @@ import java.util.Scanner;
     public class BasicPrograms {
         public static int heads=0,tails=0;
         public static void main(String[] args) {
-            Scanner x =new Scanner(System.in);
-            System.out.println("Enter a Year to check: ");
-            int year =x.nextInt();
-            if(year < 1000 || year > 9999)
-                System.out.println("\nYou entered wrong year");
-            else
+            Scanner y =new Scanner(System.in);
+            System.out.println("Enter a Value : ");
+            int pow =y.nextInt();
+            int value;
+            for (int i=1;i<=pow;i++)
             {
-                if(year % 4 == 0)
-                    System.out.println("\nEntered year is Leap Year");
-                else
-                    System.out.println("\nEntered year is not a Leap year");
+                value=(int)Math.pow(2,i);
+                System.out.println("\n The Pwer of given value "+i+" is "+value);
             }
 
         }
+
 
     }
