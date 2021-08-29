@@ -1,6 +1,5 @@
 package com.Bridgelabz;
-import java.util.Scanner;
-
+import java.util.Scanner;git
     public class BasicPrograms {
         public static int heads=0,tails=0;
         public static void main(String[] args) {
